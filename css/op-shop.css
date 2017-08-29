@@ -1,0 +1,216 @@
+/*浮动条*/
+.store-subnav {
+    background: #f1f1f1;
+    height: 150px;
+    overflow: hidden;
+}
+.store-subnav .store-container {
+    text-align: center;
+    background: #f1f1f1;
+    width: 100%;
+    height: 150px;
+    padding: 40px 0 25px;
+}
+.store-subnav .store-container ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+    width: 105px;
+    height: 83px;
+}
+.store-subnav .store-container li i{
+	background: #CCCCCC;
+	border-radius: 50%;
+    position: relative;
+    margin-bottom: 25px;
+    display: block;
+	height: 41px;
+	width: 41px;
+	margin: 0 auto;
+	position: relative;
+    background-image: url(../img/shop-icon.png);
+}
+/*六个圆形小图标*/
+.store-subnav .store-container li .i-phones{
+    background-position: 0 -451px;
+}
+.store-subnav .store-container li .i-audio{
+    background-position: 0 -41px;
+}
+.store-subnav .store-container li .i-cases{
+    background-position: 0 -287px;
+}
+.store-subnav .store-container li .i-cables{
+    background-position: 0 -205px;
+}
+.store-subnav .store-container li .i-bundles{
+    background-position: 0 -123px;
+}
+.store-subnav .store-container li .i-lifestyle{
+    background-position: 0 -369px;
+}
+span.icon-label{
+	display: block;
+	padding-top: 21px;
+}
+.store-subnav .store-container a{
+	display: block;
+    color: #333;
+    text-decoration: none;
+}
+.store-subnav .store-container a:hover{
+	color: red;
+}
+/*鼠标移上li上面,小图标更换*/
+.store-subnav .store-container li:hover .i-phones{
+    background-position: 0 -410px;    
+}
+.store-subnav .store-container li:hover .i-audio{
+    background-position: 0 0;  
+}
+.store-subnav .store-container li:hover .i-cases{
+    background-position: 0 -246px;   
+}
+.store-subnav .store-container li:hover .i-cables{
+    background-position: 0 -164px;   
+}
+.store-subnav .store-container li:hover .i-bundles{
+    background-position: 0 -82px;    
+}
+.store-subnav .store-container li:hover .i-lifestyle{
+    background-position: 0 -328px; 
+}
+
+/*第一部分大图片*/
+.top-banner{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background-image: url(../img/shop-large.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+/*第二部分套装内容*/
+.hero-goods-content {
+    padding: 60px 0;
+}
+.goods-wrap{
+	max-width: 1200px;
+	margin: auto;
+}
+.hero-goods {
+    margin-left: -5.66667%;
+}
+.hero-goods li {
+	list-style: none;
+    float: left;
+    width: 31.55738%;
+    margin-left: 1.66667%;
+}
+/*第三部分*/
+.goods-content{
+	background: #f2f2f2;
+	padding-bottom: 8px;
+}
+.goods-word{
+	padding-top: 50px;
+    padding-bottom: 10px;
+}
+.goods-word h2{
+color: #333;
+font-size: 27px;
+}
+.goods-word a:hover h2{
+	list-style: none;
+}
+.shop-part3{
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
+}
+.shop-part3 .row .caption{
+	text-align: center;	
+}
+.shop-part3 .row .caption h4{
+	font-size: 16px;
+}
+.shop-part3 .row .thumbnail{
+	border: none;
+}
+.thumbnail > img, .thumbnail a > img {
+    margin-top: 35px;
+}
+/*图片hover阴影效果*/
+.shop-part3 .thumbnail:hover{
+	box-shadow: 0 17px 50px 0 rgba(0,0,0,.19);/*阴影效果*/
+	transform: translate3d(0,-2px,0);
+	transition: all .3s cubic-bezier(.55,0,.1,1);
+}
+.shop-part3 .price{
+	border-left: 1px solid #333;
+    text-decoration: line-through;
+    color: #999;
+    padding-left: 12px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+	.top-banner{
+		background-image:url(../img/shop-small.jpg);
+    }
+    /*.store-subnav {
+        height: 45px;
+        overflow: visible;
+        position: relative;
+        z-index: 8;
+    }
+   .store-subnav .store-container {
+       position: fixed;
+       width: 100%;
+       height: 0;
+       z-index: 101;
+       top: 45px;
+       overflow: hidden;
+       padding: 0;
+    }*/
+   .store-subnav {
+      	height: 100%;
+   }
+   .store-subnav .store-container ul{
+   	    width: 100%;
+   	    padding: 0 5px;
+   }
+   .store-subnav .store-container ul li{
+	   	width: 50%;
+	   	height: 150px;
+	   	display: inline-block;
+	   	float: left;
+	   	border-bottom: 1px solid #eaeaea;
+	    border-right: 1px solid #eaeaea;    
+	    padding: 0;
+   }
+/*第三部分li中图片横向显示,各占一行*/
+.goods-wrap{
+	margin: 0;
+}
+.hero-goods{
+height: 100%;
+overflow: hidden;
+padding-left: 0px;
+}
+.hero-goods li{
+	display: block;
+	width: 100%;
+}
+.hero-goods img{
+	background-size: cover;
+	width: 100%;
+}	
+}

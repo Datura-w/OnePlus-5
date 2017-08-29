@@ -1,0 +1,557 @@
+/*大图片样式*/
+.service-banner {
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/nav-service-icons.jpg);
+    background-position: center center;
+	background-size: cover;
+    text-align: center;
+    display: table;
+}
+.service-banner div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+}
+.service-banner h2 {
+    font-size: 47px;
+    color: #fff;
+    font-family: lato;
+    font-weight: 300;
+    line-height: 1.5em;
+    display: inline;
+}
+/*第二部分服务导航菜单*/
+.nserv-sub-nav {
+    padding: 60px 0 80px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navlist{
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    padding-left: 0;
+}
+.navlist li {
+    float: left;
+    list-style: none;
+    width: 25%;
+    text-align: center;
+}
+.navlist li span {
+    display: block;   
+    margin: 0 auto 24px; 
+    height: 60px;
+    width: 60px;  
+}
+.navlist .li-1 span{	
+    background-position: 0 -292px;
+    background-image: url(../img/nav-service-icons.png);
+} 
+.navlist .li-2 span{	
+    background-position: 0 -52px;
+    background-image: url(../img/nav-service-icons.png);
+} 
+.navlist .li-3 span{	
+    background-position: 0 -172px;
+    background-image: url(../img/nav-service-icons.png);
+} 
+.navlist .li-4 span{	
+    background-position: 0 -518px;
+    background-image: url(../img/nav-service-icons.png);
+}
+.navlist li a{
+	color: #10181f;
+	text-decoration: none;
+}
+.navlist li h4 {
+    display: inline-block;
+    font-size: 16px;
+}
+/*两张图片导航条*/
+.nav-slide{
+	padding: 0;
+}
+.nav-slide li {
+    width: 50%;
+    padding: 0 10px;
+    float: left;
+    list-style: none;
+    box-sizing: border-box;
+}
+.nav-slide div{
+	position: relative;
+}
+.nav-slide li div i {	
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: center;
+}
+.nav-slide li.nav-jdb i ,.nav-slide li.nav-ys i{
+	background-size: 100% 100%;
+    background-image: url(../img/img-jdb.jpg);
+    transition: all 2s;
+}
+.nav-slide li.nav-ys i {
+    background-image: url(../img/img-yjys.jpg);    
+}
+/*hover图片变大*/
+.nav-slide li.nav-jdb:hover i{
+	background-size: 105% 105%;
+}
+.nav-slide li.nav-ys:hover i{
+	background-size: 105% 105%;
+}
+.nav-slide li a {
+    height: 260px;
+    display: block;
+    color: #fff;
+    position: relative;
+}
+.nav-slide li a hgroup {
+	position: absolute;
+	top: 25%;
+	left: 44%;
+}
+.nav-slide li.nav-jdb h3 {
+	text-align: center;
+    height: 82px;
+    width: 80px;
+    background-image: url(../img/nav-service-icons.png);
+    background-position: 0 -412px;
+    margin-bottom: 24px;
+}
+.nav-slide li.nav-ys h3 {
+	text-align: center;
+    height: 82px;
+    width: 80px;
+    background-image: url(../img/nav-service-icons.png);
+    background-position: 0 -1118px;
+    margin-bottom: 24px;
+}
+.nav-slide li a h4 {
+    font-size: 16px;
+    text-align: center;
+}
+/*轮播部分*/
+.lunbo{
+	margin: 0 auto;
+	width: 100%;
+}
+.bs-example{
+	padding: 0 43px;
+}
+
+.carousel-inner div{
+	position: absolute;
+	height: 260px;
+}
+.carousel-inner div hgroup{
+	position: absolute;
+	top: 20%;
+    left: 44%;
+
+}
+.b-1{
+	 background-image: url(../img/img-jdb.jpg);
+}
+.b-2{
+	 background: url(../img/img-yjys.jpg);
+}
+.b-1 hgroup h3{
+	text-align: center;
+    height: 82px;
+    width: 80px;
+    background-image: url(../img/nav-service-icons.png);
+    background-position: 0 -412px;
+    margin-bottom: 24px;
+}
+.b-2 hgroup h3{
+	text-align: center;
+    height: 82px;
+    width: 80px;
+    background-image: url(../img/nav-service-icons.png);
+    background-position: 0 -1118px;
+    margin-bottom: 24px;
+}
+.carousel-inner div hgroup h4 {
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -86%;
+    height: 26px;
+    width: 16px;
+    color: gray;
+    font-size: 30px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+    margin-right: -70%;
+    height: 26px;
+    width: 16px;
+    color: gray;
+    font-size: 30px;
+}
+.carousel-indicators {
+    bottom: -41px;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;    
+}
+.carousel-indicators .active {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+}
+/*第三部分售后服务*/
+.nserv-point{
+	height: 650px;
+    margin-bottom: 60px;
+    background:url(../img/nserv-point.jpg) center no-repeat #f3f3f3;
+    background-size: cover;
+}
+.nserv-point-inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.nserv-point-inner h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    color: #333;
+    text-align: center;
+    position: relative;
+}
+/*文字下面的短黑线*/
+.nserv-point-inner h2:before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 0;
+    border-bottom: 1px solid #000;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -20px;
+}
+.nserv-point-inner h3 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.nserv-point-inner .search-order {
+    text-align: center;
+    margin-bottom: 45px;
+}
+.nserv-point-inner .search-order button {
+    text-align: center;
+    width: 150px;
+    height: 45px;
+    border: 1px solid #000;
+    font-size: 14px;
+    background: 0 0;
+}
+.nserv-point-inner .search-order img {
+    width: 11px;
+    margin-right: 4px;
+}
+.nserv-point-content .official,.unofficial{
+    background-color: #fff;
+    padding-top: 30px;
+    height: 330px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    border-right: 2px solid #dfdfdf;
+}
+.nserv-point-content h4{
+    font-size: 18px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.nserv-point-content p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #999;
+    text-align: center;
+    height: 90px;
+    width: 85%;
+    max-width: 440px;
+    margin: 0 auto;
+}
+.nserv-point-content img {
+    width: 56px;
+    display: block;
+    margin: 0 auto 25px;
+}
+.nserv-point-content a {
+    font-size: 14px;
+    color: #09c;
+    display: inline-block;
+    position: relative;
+}
+.nserv-point-content a:hover{
+	color: #eb0028;
+	text-decoration: none;
+}
+/*第四部分常见问题*/
+.common-question{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    padding-bottom: 60px;
+}
+.common-question header {
+    height: 90px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #dfdfdf;
+    font-size: 14px;
+}
+.common-question header h2 {
+    font-size: 24px;
+    color: #222;
+    line-height: 90px;
+    float: left;
+    margin: auto;
+    padding-left: 3%;
+}
+.common-question header form {
+    float: right;
+    margin-right: 3%;
+    margin-top: 20px;
+    background: #efefef;
+}
+.common-question header .input-text {
+    height: 50px;
+    width: 350px;
+    border: none;
+    background: #efefef;
+    text-indent: 12px;
+    line-height: 48px;
+}
+.common-question header .input-text:focus{
+	outline: none;
+}
+.common-question header .heaer-btn {
+    height: 50px;
+    width: 50px;
+    border: none;
+    background: url(../img/icon_magnifier.png) center no-repeat #efefef;
+    text-indent: -200px;
+    overflow: hidden;
+}
+/*各种常见问题*/
+.common-question ul {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-left: 0;
+}
+.common-question ul li {
+    line-height: 50px;
+    width: 50%;
+    float: left;
+    padding: 0 3%;
+    list-style: none;
+}
+.common-question ul li .glyphicon-menu-right {
+	margin-right: 4px;
+	color: #666;
+}
+.common-question .glyphicon-triangle-right{
+	color: #09c;
+	margin-left: 35px;
+}
+.common-question ul li a{
+    color: #666;
+}
+.common-question a.more {
+    color: #09c;
+    padding-left: 2px;
+}
+.common-question a.more:hover{
+	 color: #09c;
+}
+/*第五部分分享*/
+.service-share {
+    height: 420px;
+    padding-top: 91px;
+    background: url(../img/contactusbg.jpg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.service-share h2 {
+    height: 60px;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+.service-share h2:after {
+    content: "\00a0";
+    display: block;
+    width: 40px;
+    height: 1px;
+    overflow: hidden;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+}
+.service-share ul {
+    width: 100%;
+    text-align: center;
+}
+.service-share ul .share-li{
+	margin: 0 auto;
+    width: 720px;
+}
+.service-share ul li {
+    width: 180px;
+    text-align: center;
+    list-style: none;
+    font-size: 16px;
+    float: left;
+    padding-left: 0 18%;
+}
+/*四个分享按钮*/
+.service-share ul li span {
+	height: 60px;
+    width: 60px;
+    display: block;
+    margin: 0 auto 28px;
+}
+.service-share ul span{
+	background-image: url(../img/nav-service-icons.png);
+}
+/*微信*/
+.service-share ul .wx span{	
+    background-position: 0 -998px;
+}
+.service-share ul .wx:hover span { 
+	background-position: 0 -1058px;   
+}
+
+/*QQ*/
+.service-share ul .qq span{
+    background-position: 0 -638px;
+}
+.service-share ul .qq:hover span { 
+	background-position: 0 -698px;   
+}
+
+/*微博*/
+.service-share ul .wb span{
+    background-position: 0 -758px;
+}
+.service-share ul .wb:hover span { 
+	background-position: 0 -818px;   
+}
+
+/*电话*/
+.service-share ul .tel span{
+   background-position: 0 -878px;
+}
+.service-share ul .tel:hover span { 
+	background-position: 0 -938px;   
+}
+
+.service-share ul li a{
+	display: inline-block;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*小屏幕图片轮播*/
+.mess,.c-1,.c-2{
+	width: 100%;
+}
+.mess .official,.mess .unofficial{
+	width: 100%;
+}
+.mess  .glyphicon-chevron-left{
+	margin-top: -152%;
+}
+.mess  .glyphicon-chevron-right{
+    margin: -154% -526%;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 640px) {
+	.nserv-sub-nav li{
+		width: 50%;
+		padding: 0 2%;
+	}
+	.carousel-indicators li {
+	    display: inline-block;
+	    width: 10px;
+	    height: 10px;
+	    margin: 1px;
+	    text-indent: -999px;
+	    cursor: pointer;
+	    background-color: #000 \9;
+	    background-color: rgba(0, 0, 0, 0);
+	    border: 1px solid #fff;
+	    border-radius: 10px;
+    }
+}
+
+@media (max-width: 720px) {
+	
+	.service-share ul li {
+		width: 50%!important;
+		padding: 27px 4px;
+	}
+	.service-share ul{
+		padding-left: 0;
+	}
+    .service-share {
+       height: auto;
+       padding: 60px 0 30px;
+	   background-image: url(../img/contactusbg-small.jpg);
+	   background-size: cover;
+    }
+}
+
+@media(max-width: 767px) {
+	.nav-slide li{
+		width: 100%;
+		padding: 0 6%;
+	}
+	.common-question ul li{
+		width: 100%;
+	}
+	.service-share ul li{
+		width: 25%;
+	}
+	
+	.service-share ul .share-li {
+    	width: 100%;
+	}
+}
+
